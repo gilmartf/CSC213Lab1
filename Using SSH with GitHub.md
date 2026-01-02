@@ -10,7 +10,7 @@ For:
 - macOS, Linux: 
     - Open a Terminal.
 
-## 0. Checking for SSH Keys:
+## 0. Checking for SSH Keys
 Enter in the command:
 ```
 ls -al ~/.ssh
@@ -18,7 +18,7 @@ ls -al ~/.ssh
 
 If you see files named `id_ed25519` and `id_ed25519.pub` you can go directly to step 2.
 
-## 1. Generating an SSH Key Pair:
+## 1. Generating an SSH Key Pair
 1. Run the command:
 ```
 ssh-keygen -t ed25519 -C "your_email@whatever.com"
@@ -32,7 +32,7 @@ ssh-keygen -t ed25519 -C "your_email@whatever.com"
 Now, if you [check for SSH keys](#0-Checking-for-SSH-Keys), among other files, you should see two that contain the **private** key `id_ed25519` and the **public**
 key `id_ed25519.pub`.
 
-## 2. Adding a Private SSH Key to the `ssh-agent`:
+## 2. Adding a Private SSH Key to the `ssh-agent`
 1. Start the `ssh-agent` in the background:
 ```
 eval "$(ssh-agent -s)"
@@ -42,13 +42,13 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
 
-## 3. Adding a Public SSH Key  to GitHub:
+## 3. Adding a Public SSH Key  to GitHub
 1. Copy the contents of `id_ed25519` to the clipboard.
 2. Login to your GitHub account.
 3. Go to Settings -> SSH and GPG Keys -> New SSH Key.
 4. Add a relevant title name to your SSH key and click "Add SSH Key".
 
-## 4. Testing the SSH Connection:
+## 4. Testing the SSH Connection
 Enter:
 ```
 ssh -T git@github.com
