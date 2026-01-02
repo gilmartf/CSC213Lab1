@@ -32,7 +32,7 @@ Create a GitHub account. If you already have one, great! Either way, just list y
 
 Locally clone this public repository with the following command: 
 
-`git clone  https://github.com/delveccj/CSC213Lab1.git`  
+`git clone https://github.com/JonMrowczynski/CSC213Lab1.git`  
 
 It has a single encrypted zip file in it. Open it with the password: 
 
