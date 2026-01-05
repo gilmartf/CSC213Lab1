@@ -1,5 +1,8 @@
- 
 # Gitting to Know Git!
+
+**Author**: Justin Del Vecchio
+
+**Edited by**: Jon Mrowczynski
 
 ## Industry Rationale
 
