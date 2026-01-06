@@ -84,7 +84,7 @@ git add path/to/file
 ```
 Sometimes you might want to stage all the changes you made. in which case you can execute:
 ```
-git add .
+git add -A
 ```
 
 Be careful with this! With small projects this is probably fine, but you'll usually want to be more fine-grained with your
