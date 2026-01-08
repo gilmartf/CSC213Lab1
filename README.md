@@ -1,4 +1,4 @@
-# Gitting to Know Git!
+# Lab 1 - Gitting to Know Git!
 
 **Author**: Justin Del Vecchio
 
