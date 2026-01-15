@@ -43,7 +43,7 @@ ssh-add ~/.ssh/id_ed25519
 ```
 
 ## 3. Adding a Public SSH Key  to GitHub
-1. Copy the contents of `id_ed25519` to the clipboard.
+1. Copy the contents of `id_ed25519.pub` to the clipboard.
 2. Login to your GitHub account.
 3. Go to Settings -> SSH and GPG Keys -> New SSH Key.
 4. Add a relevant title name to your SSH key and click "Add SSH Key".
