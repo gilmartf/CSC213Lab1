@@ -71,7 +71,7 @@ Instructions to do so can be found in [Using SSH with GitHub.md](./Using%20SSH%2
 
 Create and share a GitHub project by doing the following:
 
-1. Create a new, public project **exactly** named: `CSC213Lab1` in your GitHub account.
+1. Create a new, **public** project **exactly** named: `CSC213Lab1` in your GitHub account.
 2. Clone that project locally using SSH.
 3. Create a folder named `src` in that project.
 4. Add a file named `HelloWorld.java` in that folder.
