@@ -82,3 +82,5 @@ Create and share a GitHub project by doing the following:
 List the project’s HTTPS URL so that it can be cloned:
 
 [URL]
+
+Submit this file to the corresponding Lab 1 Dropbox.
