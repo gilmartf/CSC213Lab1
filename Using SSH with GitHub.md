@@ -16,7 +16,8 @@ Enter in the command:
 ls -al ~/.ssh
 ```
 
-If you see files named `id_ed25519` and `id_ed25519.pub` you can go directly to step 2.
+- If you see files named `id_ed25519` and `id_ed25519.pub` you can go directly to [step 2](#2-adding-a-private-ssh-key-to-the-ssh-agent).
+- Otherwise, if you see a message like: `ls: cannot access '~/.ssh': No such file or directory.` then go to [part 1](#1-generating-an-ssh-key-pair)
 
 ## 1. Generating an SSH Key Pair
 1. Run the command:
