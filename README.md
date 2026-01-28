@@ -36,7 +36,7 @@ Create a GitHub account. If you already have one, great! Either way:
     - This helps to keep your GitHub account secure and out of the hands of would-be hackers! (This genuinely saved my butt once O_o!?).
 - list your username below:
 
-[Username]
+gilmartf
 
 ### Task 2 (5 pts)
 
@@ -56,7 +56,7 @@ CSC213!whiz
 
 to find a single text file inside that contains a secret word! Copy and paste that word below:
 
-[Secret Word]
+Eureka
 
 ### Task 3 (10 pts)
 
@@ -81,6 +81,6 @@ Create and share a GitHub project by doing the following:
 
 List the project’s HTTPS URL so that it can be cloned:
 
-[URL]
+https://github.com/gilmartf/CSC213Lab1
 
 Submit this file to the corresponding Lab 1 Dropbox.
